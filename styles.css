@@ -1,0 +1,28 @@
+h1{
+  font-size: 20px;
+  color: pink;
+  font-family: verdana;
+}
+body {
+background:#95d2ac;
+}
+
+p img {
+  width: 800px,
+  height: 500px
+}
+figure img {
+  width: 400px,
+  height: 300px
+}
+    p img {
+  width: 60%;
+  height: auto;
+}
+figure img {
+  width: 30%;
+  height:auto;
+}
+figure{
+  border: solid 2px white;
+}
