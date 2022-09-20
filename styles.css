@@ -1,28 +1,23 @@
-h1{
-  font-size: 20px;
-  color: pink;
-  font-family: verdana;
-}
-body {
-background:#95d2ac;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Hello World Page</title>
+  <link rel="stylesheet" href="https://codepen.io/han-le-the-encoder/pen/rNvOymB.css">
+</head>
+<body>
+  <header>
+    <h1> Hello World! </h1>
+  </header>
+    <article>
+       <figure> <img src="https://www.iheartteacups.com/wp-content/uploads/2017/11/IMG_68842.jpg"width="400"
+     height="500" />
+         <figcaption> Pupple is really cute <figcaption>
+         <figure/>
+         <p> Dogs have been human’s best friends for thousands of years. They are there for us through thick and thin. They never judge and are always happy to see us return, whether we’ve been gone five hours or five minutes.
+      </p>
+      <p> <img src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/2048x1365/gallery-1511194376-cavachon-puppy-christmas.jpg?resize=980:*" alt="puppy"width="800"
+     height="500" />
+</article>
+  </body>
+</html>
 
-p img {
-  width: 800px,
-  height: 500px
-}
-figure img {
-  width: 400px,
-  height: 300px
-}
-    p img {
-  width: 60%;
-  height: auto;
-}
-figure img {
-  width: 30%;
-  height:auto;
-}
-figure{
-  border: solid 2px white;
-}
