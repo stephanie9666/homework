@@ -1,0 +1,52 @@
+h1{
+  font-size: 20px;
+  color: pink;
+  font-family: verdana;
+}
+body {
+background:#95d2ac;
+}
+
+p img {
+  width: 800px,
+  height: 500px
+}
+figure img {
+  width: 400px,
+  height: 300px
+}
+    p img {
+  width: 60%;
+  height: auto;
+}
+figure img {
+  width: 30%;
+  height:auto;
+}
+figure{
+  border: solid 2px white;
+}
+nav ul {
+  background-color:White;
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid Black;
+}
+nav ul li{
+
+}
+
+nav ul li a{
+  color: #fffff;
+  text-decoration:none;
+  padding: 8px;
+  border-bottom: 1px solid Black;
+  display: block;
+}
+nav ul li: last-child a{
+  border-bottom: none;
+}
+nav ul li a:hover{
+  background-color: Black;
+}
