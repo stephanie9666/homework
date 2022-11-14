@@ -20,6 +20,11 @@ p img {
   width: 800px,
   height: 500px
 }
+img{
+  max-width:100%;
+    height: auto;
+}
+
 figure img {
   width: 400px,
   height: 300px
@@ -35,9 +40,11 @@ margin-bottom: 300px;
 max-width: 900px;
 
 }
-figure.section-image.odd{
-float:right;
-margin-left: 100px;
+@media all and (min-width: 768px) {
+  figure.section-image.odd{
+  float:right;
+  margin-left: 100px;
+  }
 }
 figure.section-image.even{
   float:left;
@@ -56,12 +63,15 @@ figure img {
 figure{
   border: solid 2px Black;
 }
-nav ul {
-  background-color:White;
-  display: inline-block;
-  list-style: none;
-  padding-left: 0;
-  border: 1px solid Black;
+
+@media all and (min-width: 390px) {
+  nav ul {
+    background-color:White;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid Black;
+  }
 }
 nav ul li{
 
