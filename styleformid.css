@@ -2,7 +2,7 @@ h#site-title{
   font-size: 80px;
   text-align: center;
   color: White;
-  background: Red;
+  background: Black;
   background-size:auto;
   font-family: verdana;
   border-width: medium;
@@ -18,8 +18,8 @@ padding-left: 0;
 h1#article-title{
   font-size: 30px;
   text-align: center;
-  color: White;
-  background-color: Red;
+  color: black;
+  background-color: white;
   font-family: verdana;
   border: solid 3px black;
 }
@@ -30,7 +30,7 @@ background:#f6faed;
 h2{
   font-size: 30px;
   text-align: center;
-  color: white;
+  color: White;
   background-color: Black;
   font-family: verdana;
   border: solid 3px Black;
@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 header nav ul li a:hover {
-  border-bottom: 3px solid Red;
+  border-bottom: 3px solid Black;
   padding-bottom: 9px;
 }
 
@@ -80,7 +80,7 @@ footer#page-footer {
   padding: 50px 0;
   margin-top:100px;
   text-align: center;
-  background-color: Red;
+  background-color:Black;
   color: #ffffff;
   text-decoration: underline;
 }
@@ -89,7 +89,7 @@ p.small-section{
   margin-top:100px;
   text-align: center;
   font-size: 30px;
-  background-color: Red;
+  background-color: Black;
   color: #ffffff;
 
 }
